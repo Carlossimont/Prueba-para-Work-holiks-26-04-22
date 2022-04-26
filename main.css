@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap'); */
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    margin:2rem 4rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.hamburguer-menu{
+    display: none;
+}
+.logo img{
+    max-width: 185px;
+}
+.menu{
+    display: flex;
+}
+.menu div{
+    padding-left: 3rem;
+}
+section{
+    font-size: 217px;
+}
+.bold{
+    font-weight: 700;
+}
+.linebig{
+    background: #212222;
+    opacity: 0.45;
+    width: 80%;
+    height: 1px;
+}
+.first-row{
+    margin-left: 10rem;
+}
+.second-row{
+    margin-left: 33rem;
+}
+.second-row div{
+    position: relative;
+    z-index: 5;
+}
+.second-row img{
+    position: absolute;
+    left: 45rem;
+    top: 10rem;
+    z-index: 4;
+    max-width: 666px;
+}
+.paragrafh{
+    display:block;
+    text-indent: 20px;
+    font-size: 32px;
+    max-width: 800px;
+    margin:10% 0 10% 40%;
+}
+
+.circle-pink{
+    float: left;
+    width: 18px;
+    height: 18px;
+    background-color:#FB088C;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+}
+
+.product{
+    font-size: 89px;
+    font-weight: 700;
+}
+.description{
+    font-size: 16px;
+    max-width: 318px;
+}
+.article-one-img{
+    transform: scaleX(-1) rotate(-10deg);
+    position: absolute;
+    left: 13rem;
+    top: 80rem;
+    z-index: 4;
+    max-width: 442px;
+    height: auto;
+}
+.article-one{
+    margin-top: 15rem;
+}
+.article-one div{
+    position: relative;
+    z-index: 5;
+}
+.buy-options{
+    display: flex;
+    width: 617px;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.rectangles{
+    display: flex;
+}
+.pink-rectangle{
+    height: 14px;
+    width: 45px;
+    background: #FB088C;
+}
+.black-rectangle{
+    height: 14px;
+    width: 45px;
+    background: #212222;
+    margin-left: 1.5rem;
+}
+.arrow{
+    display: flex;
+    font-size: 20px;
+}
+.arrow div{
+    margin-right: 1.5rem;
+}
+.arrow-img{
+    max-width: 27.50px;
+}
+.line{
+    background: #212222;
+    width: 612px;
+    height: 1px;
+}
+.article-two{
+    margin-top: 20rem;
+    margin-left: 45rem;
+    margin-bottom: 10rem;
+}
+.article-two div{
+    position: relative;
+    z-index: 5;
+}
+.article-two-img{
+    position: absolute;
+    left: 60rem;
+    top: 117rem;
+    z-index: 4;
+    max-width: 257px;
+}
+footer{
+    display: block;
+    background-color: #212222;
+    color:rgb(255, 255, 255);
+    margin: 0 -4rem -4rem -4rem;
+}
+.footer-info{
+    display: flex;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    align-items: center;
+}
+.email-tlf{
+    font-size: 25px;
+}
+.email-tlf p{
+    margin: 0;
+}
+.motto{
+    font-size: 35px;
+    font-weight: 700;
+}
+.motto p{
+    margin: 0;
+    margin-left: 15rem;
+}
+.white-line{
+    background: #ffffff;
+    width: 90%;
+    height: 1px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+.checkbox p{
+    margin-left: 1rem;
+}
+.footer-info-rigth{
+    margin-left: 36rem;
+    padding-bottom: 3rem;
+}
+.flex-row{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.checkbox2{
+    display: flex;
+    align-items: center;
+}
+.checkbox2 p{
+    margin-right: 1.5rem;
+}
+.flex-row2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+@media (max-width:376px){
+
+    .menu{
+        display: none;
+    }
+    body{
+        font-family: 'DM Sans', sans-serif;
+        margin: 4rem 1rem;
+    }
+
+    .hamburguer-menu{
+        max-width: 20px;
+    }
+    .hamburguer-menu{
+        display:block;
+        position: absolute;
+        left: 13rem;
+        top: 4rem;
+
+    }
+    section{
+        font-size: 90px;
+    }
+    .linebig{
+        background: #212222;
+        opacity: 0.45;
+        width: 80%;
+        height: 1px;
+    }
+    .first-row{
+        margin-left: 1rem;
+    }
+    .second-row{
+        margin-left: 3rem;
+    }
+    .second-row img{
+        position: absolute;
+        left: 7rem;
+        top: 10rem;
+        z-index: 4;
+        max-width: 222px;
+    }
+    .paragrafh{
+        font-size: 24px;
+        width: 300px;
+        margin:0rem;
+    }
+    .buy-options{
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    .article-one-img{
+        transform: scaleX(-1) rotate(-10deg);
+        position: absolute;
+        left: 3rem;
+        top: 46rem;
+        z-index: 4;
+        max-width: 300px;
+        height: auto;
+    }
+    .line{
+        background: #212222;
+        width: 370px;
+        height: 1px;
+    }
+    .article-two{
+        margin-top: 10rem;
+        margin-left: 0rem;
+        margin-bottom: 10rem;
+    }
+    .article-two-img{
+        transform: scaleX(-1) rotate(-10deg);
+        position: absolute;
+        left: 7rem;
+        top: 76rem;
+        z-index: 4;
+        max-width: 200px;
+        height: auto;
+    }
+    footer{
+        display: block;
+        background-color: #212222;
+        color:rgb(255, 255, 255);
+        margin: 0 -4rem -4rem -4rem;
+    }
+    .footer-info{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .email-tlf{
+        font-size: 15px;
+        /* margin:0;
+        padding-left: 3rem; */
+    }
+    
+    .motto{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .motto p{
+        margin: 0;
+    }
+    .footer-info-rigth{
+        display: flex;
+        flex-direction: column;        
+        margin-left: 1rem;
+        padding-bottom: 3rem;
+    }
+    .footer-info-rigth p{
+        margin-left: 3rem;
+    }
+    .flex-row2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .white-line {
+        background: #ffffff;
+        width: 80%;
+        height: 1px;
+    }
+    .flex-row {
+        display: flex;
+        align-items: center;
+        width: 80%;
+    }
+
+
+
+
+
+
+
+
+
+}
